@@ -3,8 +3,8 @@
 
 import { Stack } from "expo-router";
 import { colors } from "@/styles/theme";
-import { fontFamily } from "@/styles/theme";
 import { Loading } from "@/components/loading";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 import {
   useFonts,
@@ -27,11 +27,13 @@ export default function Layout() {
   }
 
   return (
-    <Stack
-      screenOptions={{
-        headerShown: false,
-        contentStyle: { backgroundColor: colors.gray[100] },
-      }}
-    />
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <Stack
+        screenOptions={{
+          headerShown: false,
+          contentStyle: { backgroundColor: colors.gray[100] },
+        }}
+      />
+    </GestureHandlerRootView>
   ); //faz um cabeçalho, mas com o screanOptiions e headerShown false ele desaparece
 }

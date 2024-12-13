@@ -3,21 +3,18 @@ import { colors, fontFamily } from "@/styles/theme";
 
 export const style = StyleSheet.create({
   container: {
-    width: "100%",
-    flexDirection: "row",
-    gap: 16,
+    backgroundColor: colors.gray[100],
   },
+  content: {
+    gap: 12,
+    padding: 24,
+    paddingBottom: 100,
+  },
+  indicator: { width: 80, height: 4, backgroundColor: colors.gray[300] },
   title: {
-    fontSize: 16,
-    fontFamily: fontFamily.semiBold,
     color: colors.gray[600],
-  },
-  datails: {
-    flex: 1,
-  },
-  description: {
-    fontSize: 14,
+    fontSize: 16,
     fontFamily: fontFamily.regular,
-    color: colors.gray[500],
+    marginBottom: 16,
   },
 });
