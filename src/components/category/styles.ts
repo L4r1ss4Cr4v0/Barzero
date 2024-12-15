@@ -19,6 +19,9 @@ export const style = StyleSheet.create({
     color: colors.gray[500],
     fontFamily: fontFamily.regular,
   },
-  cointainerSelected: { backgroundColor: colors.green.base, borderWidth: 0 },
+  cointainerSelected: {
+    backgroundColor: colors.green.base,
+    borderColor: colors.green.base,
+  },
   nameSelected: { color: colors.green.soft },
 });
