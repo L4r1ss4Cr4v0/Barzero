@@ -20,8 +20,8 @@ export const style = StyleSheet.create({
     fontFamily: fontFamily.regular,
   },
   cointainerSelected: {
-    backgroundColor: colors.green.base,
-    borderColor: colors.green.base,
+    backgroundColor: colors.yellow.base,
+    borderColor: colors.yellow.base,
   },
-  nameSelected: { color: colors.green.soft },
+  nameSelected: { color: colors.gray[100] },
 });

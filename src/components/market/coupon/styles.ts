@@ -13,7 +13,7 @@ export const style = StyleSheet.create({
   },
   content: {
     flexDirection: "row",
-    backgroundColor: colors.green.soft,
+    backgroundColor: colors.yellow.base,
     paddingHorizontal: 8,
     paddingVertical: 10,
     borderRadius: 8,
