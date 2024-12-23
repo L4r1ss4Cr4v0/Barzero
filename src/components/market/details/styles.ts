@@ -9,18 +9,6 @@ export const style = StyleSheet.create({
     borderTopEndRadius: 20,
     backgroundColor: colors.gray[100],
   },
-  name: {
-    fontSize: 20,
-    fontFamily: fontFamily.bold,
-    color: colors.gray[600],
-  },
-  description: {
-    fontSize: 16,
-    fontFamily: fontFamily.regular,
-    color: colors.gray[500],
-    marginTop: 12,
-    marginBottom: 32,
-  },
   group: {
     gap: 12,
     width: "100%",

@@ -3,6 +3,7 @@ import { Text, View } from "react-native";
 import { style } from "./styles";
 import { IconPhone, IconMapPin, IconTicket } from "@tabler/icons-react-native";
 import { Info } from "../info";
+import { Header } from "../header";
 
 export type PropsDetails = {
   name: string;
@@ -23,8 +24,7 @@ type Props = {
 export function Details({ data }: Props) {
   return (
     <View style={style.container}>
-      <Text style={style.name}>{data.name}</Text>
-      <Text style={style.description}>{data.description}</Text>
+      <Header name={data.name} description={data.description} />
 
       <View style={style.group}>
         <Text style={style.title}>Informações</Text>
@@ -33,7 +33,7 @@ export function Details({ data }: Props) {
           description={`${data.coupons} cupons disponíveis`}
           icon={IconTicket}
         />
-        <Info description={data.description} icon={IconMapPin} />
+        <Info description={data.address} icon={IconMapPin} />
         <Info description={data.phone} icon={IconPhone} />
       </View>
       <View style={style.group}>
