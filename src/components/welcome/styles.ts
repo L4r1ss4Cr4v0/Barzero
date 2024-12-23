@@ -3,8 +3,8 @@ import { colors, fontFamily } from "@/styles/theme";
 
 export const style = StyleSheet.create({
   logo: {
-    width: 48,
-    height: 48,
+    width: 60,
+    height: 60,
     marginTop: 24,
     marginBottom: 28,
   },

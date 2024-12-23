@@ -22,6 +22,7 @@ export const style = StyleSheet.create({
     marginBottom: 32,
   },
   group: {
+    gap: 12,
     width: "100%",
     borderBottomWidth: 1,
     borderBottomColor: colors.gray[200],
@@ -30,9 +31,12 @@ export const style = StyleSheet.create({
   },
   title: {
     fontSize: 14,
-    fontFamily: fontFamily.medium,
+    fontFamily: fontFamily.semiBold,
     color: colors.gray[500],
     marginBottom: 12,
   },
-  rule: {},
+  rule: {
+    fontFamily: fontFamily.medium,
+    color: colors.gray[500],
+  },
 });

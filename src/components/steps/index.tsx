@@ -16,13 +16,13 @@ export function Steps() {
         icon={IconMapPin}
       />
       <Step
-        title="Ative o cupom com QR Code"
-        description="Escaneie o código... "
+        title="Ative cupons de desconto lendo QR Codes"
+        description="Escaneie os códigos para ganhar descontos nos seus PUBs favoritos"
         icon={IconQrcode}
       />
       <Step
         title="Tenha descontos"
-        description="Economize nos melhores bairros de BH"
+        description="Economize nos melhores bares de BH"
         icon={IconTicket}
       />
     </View>
