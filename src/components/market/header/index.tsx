@@ -7,11 +7,12 @@ import { Button } from "@/components/button";
 type Props = {
   name: string;
   description: string;
+  menu: string;
 };
 
 // In future, adding "menu" in Props AND API
 
-export function Header({ name, description }: Props) {
+export function Header({ name, description, menu }: Props) {
   return (
     <View style={style.container}>
       <View style={style.texts}>
@@ -20,7 +21,7 @@ export function Header({ name, description }: Props) {
       </View>
       <Button
         style={{ width: 55, height: 55 }}
-        onPress={() => Linking.openURL("LinkDoCardápio")}
+        onPress={() => Linking.openURL(menu)}
       >
         <Button.Icon icon={IconReceipt} />
       </Button>

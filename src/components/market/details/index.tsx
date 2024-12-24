@@ -11,6 +11,7 @@ export type PropsDetails = {
   address: string;
   phone: string;
   coupons: number;
+  url_menu: string;
   rules: {
     id: string;
     description: string;
@@ -24,7 +25,11 @@ type Props = {
 export function Details({ data }: Props) {
   return (
     <View style={style.container}>
-      <Header name={data.name} description={data.description} />
+      <Header
+        name={data.name}
+        description={data.description}
+        menu={data.url_menu}
+      />
 
       <View style={style.group}>
         <Text style={style.title}>Informações</Text>
