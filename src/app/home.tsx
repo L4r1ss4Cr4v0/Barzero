@@ -17,8 +17,8 @@ type MarketsProps = PlaceProps & {
 };
 
 const currentLocation = {
-  latitude: -23.561187293883442,
-  longitude: -46.656451388116494,
+  latitude: -19.931511782257072,
+  longitude: -43.93798738718039,
 };
 
 export default function Home() {
