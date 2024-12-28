@@ -17,7 +17,7 @@ type Props = {
 export function Step({ title, description, icon: Icon }: Props) {
   return (
     <View style={style.container}>
-      {Icon && <Icon size={32} color={colors.red.base} />}
+      {Icon && <Icon size={32} color={colors.orange.base} />}
       <View style={style.datails}>
         <Text style={style.title}>{title}</Text>
         <Text style={style.description}>{description}</Text>

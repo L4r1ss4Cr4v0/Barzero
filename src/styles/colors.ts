@@ -13,8 +13,8 @@ export const colors = {
     base: "#E1A10B",
   },
 
-  red: {
-    light: "#FDEDED",
-    base: "#F94144",
+  orange: {
+    base: "#E37C1B",
+    flame: "#E55E28",
   },
 };
