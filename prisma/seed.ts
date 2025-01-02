@@ -3,30 +3,31 @@ import { prisma } from "@/database/prisma";
 async function seed() {
   await prisma.category.createMany({
     data: [
-      { id: "146b1a88-b3d3-4232-8b8f-c1f006f1e86d", name: "Alimentação" },
-      { id: "52e81585-f71a-44cd-8bd0-49771e45da44", name: "Compras" },
-      { id: "57d6e5ff-35f6-4d21-a521-84f23d511d25", name: "Hospedagem" },
-      { id: "826910d4-187d-4c15-88f4-382b7e056739", name: "Cinema" },
-      { id: "abce52cf-b33b-4b3c-8972-eb72c66c83e4", name: "Padaria" },
+      { id: "146b1a88-b3d3-4232-8b8f-c1f006f1e86d", name: "Clássicos" },
+      { id: "52e81585-f71a-44cd-8bd0-49771e45da44", name: "Pubs" },
+      { id: "57d6e5ff-35f6-4d21-a521-84f23d511d25", name: "Bar Café" },
+      { id: "826910d4-187d-4c15-88f4-382b7e056739", name: "Butequins" },
+      { id: "abce52cf-b33b-4b3c-8972-eb72c66c83e4", name: "Bar ao ar livre" },
     ],
   });
 
   await prisma.market.createMany({
     data: [
-      // ALIMENTAÇÃO
+      // Clássicos
       {
         id: "012576ea-4441-4b8a-89e5-d5f32104c7c4",
         categoryId: "146b1a88-b3d3-4232-8b8f-c1f006f1e86d",
-        name: "Moema - Bar & Cozinha",
+        name: "Belo Trago - Bar & Cozinha",
         description:
-          "A boemia paulistana com a hospitalidade mineira. A mistura do novo com o tradicional.",
-        latitude: -23.55974230991911,
-        longitude: -46.65814845249887,
+          "A boemia paulistana com a hospitalidade mineira. Onde o novo brinda com o tradicional.",
+        latitude: -19.93817056595711,
+        longitude: 43.94011757506093,
         coupons: 10,
         url_menu: "null",
-        address: "R. Sergipe, 1370 - Funcionários",
-        phone: "(31) 3568-3555",
-        cover: "https://www.moemabar.com.br/assets/img/logo.png",
+        address: "R. Levindo Lopes, 358 - Savassi",
+        phone: "(31) 1234-5678",
+        cover:
+          "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=400&h=300",
       },
       {
         id: "2bc11e34-5f30-4ba0-90fa-c1c98f649281",
@@ -89,7 +90,7 @@ async function seed() {
         cover:
           "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=400&h=300",
       },
-      // COMPRAS
+      // Pubs
       {
         id: "6dbf1cd5-c20a-4e6a-bc9a-a26069825d2c",
         categoryId: "52e81585-f71a-44cd-8bd0-49771e45da44",
@@ -170,7 +171,7 @@ async function seed() {
         cover:
           "https://images.unsplash.com/photo-1556740749-887f6717d7e4?w=400&h=300",
       },
-      // HOSPEDAGEM
+      // Bar Café
       {
         id: "7be85f5b-533f-4974-8c9e-75cae740041c",
         categoryId: "57d6e5ff-35f6-4d21-a521-84f23d511d25",
@@ -251,7 +252,7 @@ async function seed() {
         cover:
           "https://images.unsplash.com/photo-1558979158-65a1eaa08691?w=400&h=300",
       },
-      // CINEMA
+      // Butequins
       {
         id: "bde73364-95c5-46e4-8084-79a7ca3824c4",
         categoryId: "826910d4-187d-4c15-88f4-382b7e056739",
@@ -300,7 +301,7 @@ async function seed() {
         cover:
           "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&h=300",
       },
-      // PADARIA
+      // Bar ao ar livre
       {
         id: "def71683-e89f-4c3b-a652-868a02f54ae9",
         categoryId: "abce52cf-b33b-4b3c-8972-eb72c66c83e4",
