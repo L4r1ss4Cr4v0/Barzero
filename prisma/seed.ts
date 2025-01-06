@@ -40,7 +40,7 @@ async function seed() {
         coupons: 10,
         url_menu: "null",
         address: "Alameda Jaú - Jardim Paulista",
-        phone: "(12) 3456-7890",
+        phone: "(31) 3456-7890",
         cover:
           "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=400&h=300",
       },
@@ -55,7 +55,7 @@ async function seed() {
         coupons: 10,
         url_menu: "null",
         address: "Rua Peixoto Gomide - Jardim Paulista",
-        phone: "(13) 98765-4321",
+        phone: "(31) 98765-4321",
         cover:
           "https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=400&h=300",
       },
@@ -70,7 +70,7 @@ async function seed() {
         coupons: 10,
         url_menu: "null",
         address: "Rua Treze de Maio - Jardim Paulista",
-        phone: "(14) 2345-6789",
+        phone: "(31) 2345-6789",
         cover:
           "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&h=300",
       },
@@ -86,7 +86,7 @@ async function seed() {
         url_menu: "null",
 
         address: "Alameda Jaú - Jardim Paulista",
-        phone: "(15) 9876-5432",
+        phone: "(31) 9876-5432",
         cover:
           "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=400&h=300",
       },
@@ -94,80 +94,80 @@ async function seed() {
       {
         id: "6dbf1cd5-c20a-4e6a-bc9a-a26069825d2c",
         categoryId: "52e81585-f71a-44cd-8bd0-49771e45da44",
-        name: "Loja Nova",
+        name: "Barroco & Malte Pub",
         description:
-          "Roupas e acessórios modernos para o dia a dia. Estilo casual com ótimos preços.",
-        latitude: -23.564580184943406,
-        longitude: -46.66202724389377,
+          "Um refúgio de sabores artesanais com música ao vivo e decoração inspirada na arte barroca mineira.",
+        latitude: -19.932963887453614,
+        longitude: -43.933488650966886,
         coupons: 10,
         url_menu: "null",
 
-        address: "Rua José Maria Lisboa - Jardim Paulista",
-        phone: "(16) 3456-7890",
+        address: "R. Cláudio Manoel, 878 - Funcionário",
+        phone: "(31) 3456-7890",
         cover:
           "https://images.unsplash.com/photo-1504593811423-6dd665756598?w=400&h=300",
       },
       {
         id: "756b1d53-cc5b-4995-8ebd-8eee3dae01af",
         categoryId: "52e81585-f71a-44cd-8bd0-49771e45da44",
-        name: "Tech Plus",
+        name: "Ouro no Copo Taverna",
         description:
-          "Loja de eletrônicos com produtos de última geração. Gadgets e acessórios para todos.",
-        latitude: -23.56183474903135,
-        longitude: -46.66355095952655,
+          "Ambiente acolhedor com petiscos mineiros e uma incrível seleção de cervejas artesanais locais.",
+        latitude: -19.93013975580766,
+        longitude: -43.936825318776556,
         coupons: 10,
         url_menu: "null",
 
-        address: "Alameda Franca - Cerqueira César",
-        phone: "(17) 9876-5432",
+        address: "R. Bernardo Guimarães, 1313 - Funcionários",
+        phone: "(31) 9876-5432",
         cover:
           "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&h=300",
       },
       {
         id: "77a5d5eb-bcfa-4457-916d-a5b6fe7aa183",
         categoryId: "52e81585-f71a-44cd-8bd0-49771e45da44",
-        name: "Casa Luxo",
+        name: "Estação das Gerais Pub",
         description:
-          "Decoração sofisticada para casa e escritório. Produtos exclusivos para ambientes elegantes.",
-        latitude: -23.55870738391179,
-        longitude: -46.66172705741049,
+          "Combina boa música, drinks criativos e uma vibe descolada em pleno coração da Savassi.",
+        latitude: -19.93080345039054,
+        longitude: -43.937888477057854,
         coupons: 10,
         url_menu: "null",
 
-        address: "Alameda Santos - Jardim Paulista",
-        phone: "(18) 2345-6789",
+        address: "Av. João Pinheiro, 670 - Centro",
+        phone: "(31) 2345-6789",
         cover:
           "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=300",
       },
       {
         id: "78806cca-cfb0-45bc-8dc3-c57a42f0da01",
         categoryId: "52e81585-f71a-44cd-8bd0-49771e45da44",
-        name: "BookMart",
+        name: "Serra & Chopp Bar",
         description:
-          "Livraria especializada em best-sellers e clássicos. Espaço aconchegante para leitura.",
-        latitude: -23.556376883488902,
-        longitude: -46.65941413229616,
+          "Especialista em chopes variados e pratos que misturam tradição e modernidade na culinária mineira.",
+        latitude: -19.93388042188046,
+        longitude: -43.934496549011804,
         coupons: 10,
         url_menu: "null",
 
-        address: "Rua Luís Coelho - Consolação",
-        phone: "(19) 9876-5432",
+        address: "R. Pernambuco - Savassi",
+        phone: "(31) 9876-5432",
         cover:
           "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=400&h=300",
       },
       {
         id: "78ced7b1-436b-42ca-9c66-747f2b671321",
         categoryId: "52e81585-f71a-44cd-8bd0-49771e45da44",
-        name: "Green Market",
+        name: "Trem Bão Bar",
         description:
-          "Produtos orgânicos e saudáveis para o seu dia a dia. Alimentos frescos e sustentáveis.",
-        latitude: -23.55473446617852,
-        longitude: -46.65859874077045,
+          "Bar charmoso com um toque vintage, conhecido por sua cachaça especial e trilha sonora de rock clássico.",
+        latitude: -19.931927634866224,
+        longitude: -43.94200843586993,
         coupons: 10,
         url_menu: "null",
 
-        address: "Rua Matias Aires - Consolação",
-        phone: "(11) 8765-4321",
+        address: "R. Rio de Janeiro, 2011 - Lourdes",
+        phone: "(31) 8765-4321",
         cover:
           "https://images.unsplash.com/photo-1556740749-887f6717d7e4?w=400&h=300",
       },
@@ -301,13 +301,13 @@ async function seed() {
         cover:
           "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&h=300",
       },
-      // Bar ao ar livre
+      // Ao ar livre
       {
         id: "def71683-e89f-4c3b-a652-868a02f54ae9",
         categoryId: "abce52cf-b33b-4b3c-8972-eb72c66c83e4",
-        name: "Grão Dourado",
+        name: "Quintal das Estrelas",
         description:
-          "Famosa por seus croissants e pães de fermentação natural.",
+          "Um pub ao ar livre, com iluminação charmosa e música para animar as noites da Savassi.",
         latitude: -23.54000232292889,
         longitude: -46.64680389012777,
         coupons: 10,
